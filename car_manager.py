@@ -21,7 +21,7 @@ class CarManager(Turtle):
     # Moves the car to the left of the screen
     def move_forward(self):
         self.setheading(180)
-        if self.xcor() > -350:
+        if self.xcor() > -1050:
             self.forward(self.moving_distance)
 
     # Increases the speed of the car
